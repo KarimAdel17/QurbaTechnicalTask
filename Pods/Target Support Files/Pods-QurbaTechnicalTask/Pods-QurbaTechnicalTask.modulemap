@@ -1,0 +1,6 @@
+framework module Pods_QurbaTechnicalTask {
+  umbrella header "Pods-QurbaTechnicalTask-umbrella.h"
+
+  export *
+  module * { export * }
+}

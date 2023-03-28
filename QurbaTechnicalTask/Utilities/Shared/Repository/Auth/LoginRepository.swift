@@ -8,14 +8,14 @@
 import Foundation
 import Combine
 
-protocol LoginRepositoryProtocol {
+protocol AuthRepositoryProtocol {
     
     func login(username: String, password: String) -> AnyPublisher<UserEntity?, Error>
     func storeToken(token: String?)
     func getToken() -> String?
 }
 
-final class LoginRepository<N: AuthNetworkProvider>: BaseRepository<N>, LoginRepositoryProtocol {
+final class AuthRepository<N: AuthNetworkProvider>: BaseRepository<N>, AuthRepositoryProtocol {
     
     private var cancellables = Set<AnyCancellable>()
     

@@ -8,8 +8,31 @@
 import SwiftUI
 
 struct TabBar: View {
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        TabView {
+            FeedView()
+                .tabItem {
+                    Image("home-2")
+                }
+            Text("Shop")
+                .tabItem {
+                    Image("shop")
+                }
+            Text("Discount")
+                .tabItem {
+                    Image("discount-shape")
+                }
+            Text("Gallery")
+                .tabItem {
+                    Image("gallery")
+                }
+            Text("Profile")
+                .tabItem {
+                    Image("profile")
+                }
+        }
     }
 }
 

@@ -8,7 +8,15 @@
 import SwiftUI
 
 enum Page: String, Identifiable {
-    case login, feed, search, tapBar
+    case login, tapBar, search
+    
+    var id: String {
+        self.rawValue
+    }
+}
+
+enum Sheet: String, Identifiable {
+    case image
     
     var id: String {
         self.rawValue
@@ -17,8 +25,8 @@ enum Page: String, Identifiable {
 
 class AppCoordinator: ObservableObject {
     
-//    @Published var isLoggedIn: Bool = false
     @Published var path = NavigationPath()
+    @Published var sheet: Sheet?
     
     func root(_ page: Page) {
         path.removeLast(path.count)
@@ -27,6 +35,10 @@ class AppCoordinator: ObservableObject {
 
     func push(_ page: Page) {
         path.append(page)
+    }
+    
+    func present(_ sheet: Sheet) {
+        self.sheet = sheet
     }
 
     func pop() {
@@ -38,12 +50,18 @@ class AppCoordinator: ObservableObject {
         switch page {
         case .login:
             LoginView()
-        case .feed:
-            FeedView()
-        case .search:
-            SearchView()
         case .tapBar:
             TabBar()
+        case .search:
+            SearchView()
+        }
+    }
+    
+    @ViewBuilder
+    func build(sheet: Sheet) -> some View {
+        switch sheet {
+        case .image:
+            ImagePreviewView(image: "three-girl-friends-having-pizza-bar 1")
         }
     }
 }

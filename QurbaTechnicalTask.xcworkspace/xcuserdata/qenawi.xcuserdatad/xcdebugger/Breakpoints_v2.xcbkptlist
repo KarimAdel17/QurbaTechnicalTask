@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6207C997-38A9-4191-9A2E-E66FDC9C04FA"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31FA387F-B24F-498F-BD4C-68679E26F1D7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QurbaTechnicalTask/Network/Networking/Login/LoginNetworkClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "login(username:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5CDBC17-BCA1-4743-92A9-7F9A4B8D1CA9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QurbaTechnicalTask/Network/Networking/NetworkProvider/NetworkClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "NetworkClient"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D9E8FAB-F8A9-4FEA-8560-D3B9A20E849A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QurbaTechnicalTask/Network/Networking/NetworkProvider/NetworkClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "request(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2D9E8FAB-F8A9-4FEA-8560-D3B9A20E849A - b8affbd50692b6c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) throws -&gt; Foundation.Data in QurbaTechnicalTask.NetworkClient.request(QurbaTechnicalTask.NetworkProvider) -&gt; Combine.AnyPublisher&lt;Foundation.Data, Swift.Error&gt;"
+                  moduleName = "QurbaTechnicalTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qenawi/Karim&apos;s%20work/self/QurbaTechnicalTask/QurbaTechnicalTask/Network/Networking/NetworkProvider/NetworkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "247">
+               </Location>
+               <Location
+                  uuid = "2D9E8FAB-F8A9-4FEA-8560-D3B9A20E849A - b8affbd50692b6c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) throws -&gt; Foundation.Data in QurbaTechnicalTask.NetworkClient.request(QurbaTechnicalTask.NetworkProvider) -&gt; Combine.AnyPublisher&lt;Foundation.Data, Swift.Error&gt;"
+                  moduleName = "QurbaTechnicalTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qenawi/Karim&apos;s%20work/self/QurbaTechnicalTask/QurbaTechnicalTask/Network/Networking/NetworkProvider/NetworkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "271">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9270779-06D3-4737-8B25-106F16C1289F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QurbaTechnicalTask/Network/Networking/NetworkProvider/NetworkClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "request(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C9270779-06D3-4737-8B25-106F16C1289F - b8affbd50692b701"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) throws -&gt; Foundation.Data in QurbaTechnicalTask.NetworkClient.request(QurbaTechnicalTask.NetworkProvider) -&gt; Combine.AnyPublisher&lt;Foundation.Data, Swift.Error&gt;"
+                  moduleName = "QurbaTechnicalTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qenawi/Karim&apos;s%20work/self/QurbaTechnicalTask/QurbaTechnicalTask/Network/Networking/NetworkProvider/NetworkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "309">
+               </Location>
+               <Location
+                  uuid = "C9270779-06D3-4737-8B25-106F16C1289F - b8affbd50692b701"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) throws -&gt; Foundation.Data in QurbaTechnicalTask.NetworkClient.request(QurbaTechnicalTask.NetworkProvider) -&gt; Combine.AnyPublisher&lt;Foundation.Data, Swift.Error&gt;"
+                  moduleName = "QurbaTechnicalTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qenawi/Karim&apos;s%20work/self/QurbaTechnicalTask/QurbaTechnicalTask/Network/Networking/NetworkProvider/NetworkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "365">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EAF4FE9B-316E-4A84-9AE4-7D3350BD2382"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QurbaTechnicalTask/Networking/NetworkProvider/NetworkClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "request(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EAF4FE9B-316E-4A84-9AE4-7D3350BD2382 - 8ea352bf44199723"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) throws -&gt; Foundation.Data in QurbaTechnicalTask.NetworkClient.request(QurbaTechnicalTask.RequestInfoConvertible) -&gt; Combine.AnyPublisher&lt;Foundation.Data, Swift.Error&gt;"
+                  moduleName = "QurbaTechnicalTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qenawi/Karim&apos;s%20work/self/QurbaTechnicalTask/QurbaTechnicalTask/Networking/NetworkProvider/NetworkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "247">
+               </Location>
+               <Location
+                  uuid = "EAF4FE9B-316E-4A84-9AE4-7D3350BD2382 - 8ea352bf44199723"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) throws -&gt; Foundation.Data in QurbaTechnicalTask.NetworkClient.request(QurbaTechnicalTask.RequestInfoConvertible) -&gt; Combine.AnyPublisher&lt;Foundation.Data, Swift.Error&gt;"
+                  moduleName = "QurbaTechnicalTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qenawi/Karim&apos;s%20work/self/QurbaTechnicalTask/QurbaTechnicalTask/Networking/NetworkProvider/NetworkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "271">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C996966C-11BD-4FF5-8F75-4617F242D6A2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QurbaTechnicalTask/Networking/NetworkProvider/NetworkClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "request(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C996966C-11BD-4FF5-8F75-4617F242D6A2 - 8ea352bf441997e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) throws -&gt; Foundation.Data in QurbaTechnicalTask.NetworkClient.request(QurbaTechnicalTask.RequestInfoConvertible) -&gt; Combine.AnyPublisher&lt;Foundation.Data, Swift.Error&gt;"
+                  moduleName = "QurbaTechnicalTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qenawi/Karim&apos;s%20work/self/QurbaTechnicalTask/QurbaTechnicalTask/Networking/NetworkProvider/NetworkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "309">
+               </Location>
+               <Location
+                  uuid = "C996966C-11BD-4FF5-8F75-4617F242D6A2 - 8ea352bf441997e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) throws -&gt; Foundation.Data in QurbaTechnicalTask.NetworkClient.request(QurbaTechnicalTask.RequestInfoConvertible) -&gt; Combine.AnyPublisher&lt;Foundation.Data, Swift.Error&gt;"
+                  moduleName = "QurbaTechnicalTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qenawi/Karim&apos;s%20work/self/QurbaTechnicalTask/QurbaTechnicalTask/Networking/NetworkProvider/NetworkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "365">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6EF321C5-7037-417E-BEAA-4E97D2B6233C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QurbaTechnicalTask/Networking/NetworkProvider/NetworkClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "request(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6EF321C5-7037-417E-BEAA-4E97D2B6233C - ee68e074c642cdcb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QurbaTechnicalTask.NetworkClient.request(QurbaTechnicalTask.RequestInfoConvertible) -&gt; Combine.AnyPublisher&lt;Foundation.Data, Swift.Error&gt;"
+                  moduleName = "QurbaTechnicalTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qenawi/Karim&apos;s%20work/self/QurbaTechnicalTask/QurbaTechnicalTask/Networking/NetworkProvider/NetworkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "510">
+               </Location>
+               <Location
+                  uuid = "6EF321C5-7037-417E-BEAA-4E97D2B6233C - 8ea352bf4419976d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) throws -&gt; Foundation.Data in QurbaTechnicalTask.NetworkClient.request(QurbaTechnicalTask.RequestInfoConvertible) -&gt; Combine.AnyPublisher&lt;Foundation.Data, Swift.Error&gt;"
+                  moduleName = "QurbaTechnicalTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qenawi/Karim&apos;s%20work/self/QurbaTechnicalTask/QurbaTechnicalTask/Networking/NetworkProvider/NetworkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "161">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2ACBB46C-EAAB-44EC-A4DC-4B0A74F0EE2D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QurbaTechnicalTask/KareemAdelNetworkLayerNetworking/Network/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "fetch(endpoint:type:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "07BEF84E-1035-4F85-9F06-AC623E88FA6E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QurbaTechnicalTask/KareemAdelNetworkLayerNetworking/Network/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "fetch(endpoint:type:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F39B5C47-2794-43B2-937A-3E06A19D63BF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QurbaTechnicalTask/KareemAdelNetworkLayerNetworking/Network/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "fetch(endpoint:type:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

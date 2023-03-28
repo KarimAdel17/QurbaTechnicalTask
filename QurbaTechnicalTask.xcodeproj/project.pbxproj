@@ -7,15 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EF6589A5573B94BCC55D82D /* Pods_QurbaTechnicalTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2128D24F38D570892028CE8 /* Pods_QurbaTechnicalTask.framework */; };
 		D50C99BD29C31D8F00F1FF3F /* QurbaTechnicalTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50C99BC29C31D8F00F1FF3F /* QurbaTechnicalTaskApp.swift */; };
 		D50C99BF29C31D8F00F1FF3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50C99BE29C31D8F00F1FF3F /* ContentView.swift */; };
 		D50C99C129C31D9100F1FF3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50C99C029C31D9100F1FF3F /* Assets.xcassets */; };
 		D50C99C429C31D9100F1FF3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50C99C329C31D9100F1FF3F /* Preview Assets.xcassets */; };
 		D50C99C629C31D9100F1FF3F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50C99C529C31D9100F1FF3F /* Persistence.swift */; };
 		D50C99C929C31D9100F1FF3F /* QurbaTechnicalTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D50C99C729C31D9100F1FF3F /* QurbaTechnicalTask.xcdatamodeld */; };
+		D5627EA529C48C4B00E7E03B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5627EA429C48C4B00E7E03B /* LoginView.swift */; };
+		D5627EAA29C4906D00E7E03B /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5627EA929C4906D00E7E03B /* FeedView.swift */; };
+		D5627EAD29C4C56B00E7E03B /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5627EAC29C4C56B00E7E03B /* TabBar.swift */; };
+		D5627EB029C5E5E700E7E03B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5627EAF29C5E5E700E7E03B /* SearchView.swift */; };
+		D5627EC329C6767500E7E03B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5627EC229C6767500E7E03B /* LoginViewModel.swift */; };
+		D5627EF329C8D0E100E7E03B /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5627EF229C8D0E100E7E03B /* NetworkClient.swift */; };
+		D5627EF529C8D23800E7E03B /* AuthNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5627EF429C8D23800E7E03B /* AuthNetworkClient.swift */; };
+		D5627EF729C8D2E000E7E03B /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5627EF629C8D2E000E7E03B /* AuthRouter.swift */; };
+		D5627EF929C8D3A200E7E03B /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5627EF829C8D3A200E7E03B /* NetworkProvider.swift */; };
+		D5627EFB29C8D3F100E7E03B /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5627EFA29C8D3F100E7E03B /* LoginModel.swift */; };
+		D5627EFD29C92EEC00E7E03B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5627EFC29C92EEC00E7E03B /* Coordinator.swift */; };
+		D5627EFF29C932AB00E7E03B /* CoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5627EFE29C932AB00E7E03B /* CoordinatorView.swift */; };
+		D5DCADAD29CA9CB000B95663 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DCADAC29CA9CB000B95663 /* FeedViewModel.swift */; };
+		D5DCADB129CAA09500B95663 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DCADB029CAA09500B95663 /* HomeRouter.swift */; };
+		D5DCADB329CAA24D00B95663 /* HomeNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DCADB229CAA24D00B95663 /* HomeNetworkClient.swift */; };
+		D5DCADB529CAA29400B95663 /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DCADB429CAA29400B95663 /* FeedModel.swift */; };
+		D5DCADB729CABBF100B95663 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DCADB629CABBF100B95663 /* SearchViewModel.swift */; };
+		D5DCADBC29CB5E1600B95663 /* BaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DCADBB29CB5E1600B95663 /* BaseRepository.swift */; };
+		D5DCADBE29CB5E8000B95663 /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DCADBD29CB5E8000B95663 /* LoginRepository.swift */; };
+		D5DCADC029CB7E0E00B95663 /* HomeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DCADBF29CB7E0E00B95663 /* HomeRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B2128D24F38D570892028CE8 /* Pods_QurbaTechnicalTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QurbaTechnicalTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A65CB3B7DA8053D95873EF /* Pods-QurbaTechnicalTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QurbaTechnicalTask.release.xcconfig"; path = "Target Support Files/Pods-QurbaTechnicalTask/Pods-QurbaTechnicalTask.release.xcconfig"; sourceTree = "<group>"; };
 		D50C99B929C31D8F00F1FF3F /* QurbaTechnicalTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QurbaTechnicalTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50C99BC29C31D8F00F1FF3F /* QurbaTechnicalTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QurbaTechnicalTaskApp.swift; sourceTree = "<group>"; };
 		D50C99BE29C31D8F00F1FF3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +46,28 @@
 		D50C99C329C31D9100F1FF3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D50C99C529C31D9100F1FF3F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		D50C99C829C31D9100F1FF3F /* QurbaTechnicalTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QurbaTechnicalTask.xcdatamodel; sourceTree = "<group>"; };
+		D5627EA429C48C4B00E7E03B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D5627EA929C4906D00E7E03B /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		D5627EAC29C4C56B00E7E03B /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		D5627EAF29C5E5E700E7E03B /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		D5627EC229C6767500E7E03B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		D5627EE229C8B19600E7E03B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D5627EF229C8D0E100E7E03B /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		D5627EF429C8D23800E7E03B /* AuthNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthNetworkClient.swift; sourceTree = "<group>"; };
+		D5627EF629C8D2E000E7E03B /* AuthRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
+		D5627EF829C8D3A200E7E03B /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		D5627EFA29C8D3F100E7E03B /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		D5627EFC29C92EEC00E7E03B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		D5627EFE29C932AB00E7E03B /* CoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView.swift; sourceTree = "<group>"; };
+		D5DCADAC29CA9CB000B95663 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		D5DCADB029CAA09500B95663 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		D5DCADB229CAA24D00B95663 /* HomeNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNetworkClient.swift; sourceTree = "<group>"; };
+		D5DCADB429CAA29400B95663 /* FeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
+		D5DCADB629CABBF100B95663 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		D5DCADBB29CB5E1600B95663 /* BaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRepository.swift; sourceTree = "<group>"; };
+		D5DCADBD29CB5E8000B95663 /* LoginRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepository.swift; sourceTree = "<group>"; };
+		D5DCADBF29CB7E0E00B95663 /* HomeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRepository.swift; sourceTree = "<group>"; };
+		D7A9EDEB33A08C0F834CD9A9 /* Pods-QurbaTechnicalTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QurbaTechnicalTask.debug.xcconfig"; path = "Target Support Files/Pods-QurbaTechnicalTask/Pods-QurbaTechnicalTask.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,17 +75,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EF6589A5573B94BCC55D82D /* Pods_QurbaTechnicalTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CAC998B2A440FF0E449DD5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2128D24F38D570892028CE8 /* Pods_QurbaTechnicalTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D274B3A6EC4888558C0F6FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7A9EDEB33A08C0F834CD9A9 /* Pods-QurbaTechnicalTask.debug.xcconfig */,
+				C5A65CB3B7DA8053D95873EF /* Pods-QurbaTechnicalTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D50C99B029C31D8F00F1FF3F = {
 			isa = PBXGroup;
 			children = (
 				D50C99BB29C31D8F00F1FF3F /* QurbaTechnicalTask */,
 				D50C99BA29C31D8F00F1FF3F /* Products */,
+				4D274B3A6EC4888558C0F6FB /* Pods */,
+				3CAC998B2A440FF0E449DD5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +120,14 @@
 		D50C99BB29C31D8F00F1FF3F /* QurbaTechnicalTask */ = {
 			isa = PBXGroup;
 			children = (
+				D5DCADB829CAC51100B95663 /* Utilities */,
+				D5627EA129C48C0500E7E03B /* Modules */,
 				D50C99BC29C31D8F00F1FF3F /* QurbaTechnicalTaskApp.swift */,
 				D50C99BE29C31D8F00F1FF3F /* ContentView.swift */,
 				D50C99C029C31D9100F1FF3F /* Assets.xcassets */,
 				D50C99C529C31D9100F1FF3F /* Persistence.swift */,
 				D50C99C729C31D9100F1FF3F /* QurbaTechnicalTask.xcdatamodeld */,
+				D5627EE229C8B19600E7E03B /* Info.plist */,
 				D50C99C229C31D9100F1FF3F /* Preview Content */,
 			);
 			path = QurbaTechnicalTask;
@@ -73,6 +141,184 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D5627EA129C48C0500E7E03B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D5627EA229C48C0D00E7E03B /* Auth */,
+				D5627EA629C4900300E7E03B /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D5627EA229C48C0D00E7E03B /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				D5627EA329C48C2300E7E03B /* Login */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		D5627EA329C48C2300E7E03B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D5627EFA29C8D3F100E7E03B /* LoginModel.swift */,
+				D5627EA429C48C4B00E7E03B /* LoginView.swift */,
+				D5627EC229C6767500E7E03B /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D5627EA629C4900300E7E03B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D5627EAB29C4C48100E7E03B /* TabBar */,
+				D5627EA729C4905100E7E03B /* Feed */,
+				D5627EAE29C5E5B600E7E03B /* Search */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D5627EA729C4905100E7E03B /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				D5627EA929C4906D00E7E03B /* FeedView.swift */,
+				D5DCADAC29CA9CB000B95663 /* FeedViewModel.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		D5627EAB29C4C48100E7E03B /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D5627EAC29C4C56B00E7E03B /* TabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		D5627EAE29C5E5B600E7E03B /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				D5627EAF29C5E5E700E7E03B /* SearchView.swift */,
+				D5DCADB629CABBF100B95663 /* SearchViewModel.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		D5627EE329C8B2A000E7E03B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D5627EE429C8B2A000E7E03B /* Network */,
+				D5627EE829C8B2A100E7E03B /* Service */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D5627EE429C8B2A000E7E03B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D5627EF829C8D3A200E7E03B /* NetworkProvider.swift */,
+				D5627EF229C8D0E100E7E03B /* NetworkClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D5627EE829C8B2A100E7E03B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D5DCADAE29CAA07900B95663 /* Auth */,
+				D5DCADAF29CAA08100B95663 /* Home */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D5DCADAE29CAA07900B95663 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				D5627EF629C8D2E000E7E03B /* AuthRouter.swift */,
+				D5627EF429C8D23800E7E03B /* AuthNetworkClient.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		D5DCADAF29CAA08100B95663 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D5DCADB029CAA09500B95663 /* HomeRouter.swift */,
+				D5DCADB229CAA24D00B95663 /* HomeNetworkClient.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D5DCADB829CAC51100B95663 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D5DCADC129CB820500B95663 /* Shared */,
+				D5DCADBA29CB5C3500B95663 /* Repository */,
+				D5DCADB929CAC53000B95663 /* Coordinator */,
+				D5627EE329C8B2A000E7E03B /* Networking */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D5DCADB929CAC53000B95663 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				D5627EFC29C92EEC00E7E03B /* Coordinator.swift */,
+				D5627EFE29C932AB00E7E03B /* CoordinatorView.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		D5DCADBA29CB5C3500B95663 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				D5DCADBB29CB5E1600B95663 /* BaseRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		D5DCADC129CB820500B95663 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D5DCADC329CB821800B95663 /* Repository */,
+				D5DCADC229CB820C00B95663 /* Models */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D5DCADC229CB820C00B95663 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5DCADB429CAA29400B95663 /* FeedModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5DCADC329CB821800B95663 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				D5DCADC429CB82C500B95663 /* Auth */,
+				D5DCADC529CB82CC00B95663 /* Home */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		D5DCADC429CB82C500B95663 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				D5DCADBD29CB5E8000B95663 /* LoginRepository.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		D5DCADC529CB82CC00B95663 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D5DCADBF29CB7E0E00B95663 /* HomeRepository.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,9 +326,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D50C99CC29C31D9100F1FF3F /* Build configuration list for PBXNativeTarget "QurbaTechnicalTask" */;
 			buildPhases = (
+				48AF96432DE1C4A8DA53EC17 /* [CP] Check Pods Manifest.lock */,
 				D50C99B529C31D8F00F1FF3F /* Sources */,
 				D50C99B629C31D8F00F1FF3F /* Frameworks */,
 				D50C99B729C31D8F00F1FF3F /* Resources */,
+				B4231D3B692CE7CC4F3149CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,15 +386,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		48AF96432DE1C4A8DA53EC17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QurbaTechnicalTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4231D3B692CE7CC4F3149CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QurbaTechnicalTask/Pods-QurbaTechnicalTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QurbaTechnicalTask/Pods-QurbaTechnicalTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QurbaTechnicalTask/Pods-QurbaTechnicalTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D50C99B529C31D8F00F1FF3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5DCADB729CABBF100B95663 /* SearchViewModel.swift in Sources */,
+				D5627EFD29C92EEC00E7E03B /* Coordinator.swift in Sources */,
 				D50C99C929C31D9100F1FF3F /* QurbaTechnicalTask.xcdatamodeld in Sources */,
+				D5DCADC029CB7E0E00B95663 /* HomeRepository.swift in Sources */,
 				D50C99C629C31D9100F1FF3F /* Persistence.swift in Sources */,
+				D5DCADB529CAA29400B95663 /* FeedModel.swift in Sources */,
+				D5DCADB329CAA24D00B95663 /* HomeNetworkClient.swift in Sources */,
+				D5DCADBC29CB5E1600B95663 /* BaseRepository.swift in Sources */,
+				D5627EFF29C932AB00E7E03B /* CoordinatorView.swift in Sources */,
+				D5DCADBE29CB5E8000B95663 /* LoginRepository.swift in Sources */,
 				D50C99BF29C31D8F00F1FF3F /* ContentView.swift in Sources */,
+				D5627EF929C8D3A200E7E03B /* NetworkProvider.swift in Sources */,
+				D5627EA529C48C4B00E7E03B /* LoginView.swift in Sources */,
+				D5DCADAD29CA9CB000B95663 /* FeedViewModel.swift in Sources */,
+				D5627EF329C8D0E100E7E03B /* NetworkClient.swift in Sources */,
+				D5627EF529C8D23800E7E03B /* AuthNetworkClient.swift in Sources */,
+				D5627EB029C5E5E700E7E03B /* SearchView.swift in Sources */,
+				D5DCADB129CAA09500B95663 /* HomeRouter.swift in Sources */,
+				D5627EC329C6767500E7E03B /* LoginViewModel.swift in Sources */,
+				D5627EFB29C8D3F100E7E03B /* LoginModel.swift in Sources */,
+				D5627EAA29C4906D00E7E03B /* FeedView.swift in Sources */,
+				D5627EF729C8D2E000E7E03B /* AuthRouter.swift in Sources */,
 				D50C99BD29C31D8F00F1FF3F /* QurbaTechnicalTaskApp.swift in Sources */,
+				D5627EAD29C4C56B00E7E03B /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +579,7 @@
 		};
 		D50C99CD29C31D9100F1FF3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A9EDEB33A08C0F834CD9A9 /* Pods-QurbaTechnicalTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -278,6 +589,7 @@
 				DEVELOPMENT_TEAM = BDKH235AA2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QurbaTechnicalTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -298,6 +610,7 @@
 		};
 		D50C99CE29C31D9100F1FF3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A65CB3B7DA8053D95873EF /* Pods-QurbaTechnicalTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -307,6 +620,7 @@
 				DEVELOPMENT_TEAM = BDKH235AA2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QurbaTechnicalTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

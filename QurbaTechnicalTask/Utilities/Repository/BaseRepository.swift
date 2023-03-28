@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+class BaseRepository<Network: NetworkClient> {
+    var client: Network
+    required init(client: Network) {
+        self.client = client
+    }
+}
